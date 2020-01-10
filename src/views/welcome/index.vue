@@ -1,5 +1,5 @@
 <template>
-  <div>欢迎访问后台页面</div>
+  <div>哈哈</div>
 </template>
 
 <script>

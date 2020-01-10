@@ -7,8 +7,8 @@ import '@/assets/css/global.css'
 import ElementUI from 'element-ui'
 // 导入axios主入口文件引入配置axios
 import axios from 'axios'
-
-axios.defaults.baseURL = 'http://ttapi.research.itcast.cn/'
+// 引入axios相关
+import '@/utils/ax.js'
 // 配置为vue的原型对象
 Vue.prototype.$http = axios
 // 注册
@@ -19,3 +19,4 @@ new Vue({
   router,
   render: h => h(App)
 }).$mount('#app')
+// 配置请求拦截器
